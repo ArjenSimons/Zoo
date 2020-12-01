@@ -4,16 +4,9 @@ using UnityEngine.UI;
 
 namespace Zoo
 {
-    class Lion : MonoBehaviour
+    class Lion : Animal, ICarnivore
     {
-        [SerializeField]
-        private GameObject Balloon;
-        [SerializeField]
-        private Text text;
-        public string name;
-
-
-        public void SayHello()
+        public override void SayHello()
         {
             Balloon.SetActive(true);
             text.text = "roooaoaaaaar";

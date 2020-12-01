@@ -3,15 +3,9 @@ using UnityEngine.UI;
 
 namespace Zoo
 {
-    class Hippo:MonoBehaviour
+    class Hippo : Animal, IHerbevore
     {
-        public string name;
-        [SerializeField]
-        private GameObject Balloon;
-        [SerializeField]
-        private Text text;
-
-        public void SayHello()
+        public override void SayHello()
         {
             Balloon.SetActive(true);
             text.text = "splash";
@@ -22,6 +16,5 @@ namespace Zoo
             Balloon.SetActive(true);
             text.text = "munch munch lovely";
         }
-    }
-    
+    }   
 }
