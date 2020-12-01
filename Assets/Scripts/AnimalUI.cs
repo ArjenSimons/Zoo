@@ -25,6 +25,7 @@ namespace Zoo
 
         private void Start()
         {
+            //Set Listeners
             btnGiveLeaves.onClick.AddListener(OnGiveLeavesPressed);
             btnGiveMeat.onClick.AddListener(OnGiveMeatPressed);
             btnTricks.onClick.AddListener(OnTricksPressed);

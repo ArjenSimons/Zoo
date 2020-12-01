@@ -22,7 +22,7 @@ namespace Zoo
             StartCoroutine(DoTrick());
         }
 
-        IEnumerator DoTrick()
+        private IEnumerator DoTrick()
         {
             for (int i = 0; i < 360; i++)
             {

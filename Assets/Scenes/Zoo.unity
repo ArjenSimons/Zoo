@@ -944,6 +944,12 @@ MonoBehaviour:
   - AnimalPrefab: {fileID: 1072593225874480, guid: ca5452b56f32abc46bc83ba2db5f04fd,
       type: 3}
     Name: marty
+  - AnimalPrefab: {fileID: 1072593225874480, guid: cf39a2eddd6dd344396aaee15f0de7f1,
+      type: 3}
+    Name: harry
+  - AnimalPrefab: {fileID: 1072593225874480, guid: 9b89a2c1d4ac4cf499fdddaebdb25bf6,
+      type: 3}
+    Name: ricky
 --- !u!114 &887016509
 MonoBehaviour:
   m_ObjectHideFlags: 0
