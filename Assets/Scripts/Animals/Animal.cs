@@ -1,16 +1,18 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class Animal : MonoBehaviour
+namespace Zoo
 {
-    [SerializeField]
-    protected GameObject Balloon;
+    public abstract class Animal : MonoBehaviour
+    {
+        [SerializeField]
+        protected GameObject Balloon;
 
-    [SerializeField]
-    protected Text text;
+        [SerializeField]
+        protected Text text;
 
-    public string Name;
+        public string Name;
 
-    public abstract void SayHello();
+        public abstract void SayHello();
+    }
 }

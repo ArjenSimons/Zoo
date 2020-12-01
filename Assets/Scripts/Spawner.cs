@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Zoo
@@ -9,6 +8,8 @@ namespace Zoo
         [SerializeField]
         private SpawnableAnimal[] animalsToSpawn;
 
+        private List<Animal> animals = new List<Animal>();
+        public List<Animal> Animals => animals;
 
         private void Start()
         {
@@ -16,6 +17,8 @@ namespace Zoo
             {
                 Animal animal = Instantiate(spawnableAnimal.AnimalPrefab, transform).GetComponent<Animal>();
                 animal.Name = spawnableAnimal.Name;
+
+                animals.Add(animal);
             }
 
             //Lion henk = Instantiate(lion.AnimalPrefab, transform).GetComponent<Lion>();

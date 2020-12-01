@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public interface ICarnivore
+﻿
+namespace Zoo
 {
-    void EatMeat();
+    public interface ICarnivore
+    {
+        void EatMeat();
+    }
 }

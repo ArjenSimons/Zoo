@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Zoo
 {
-    class Pig : Animal, IHerbevore, ICarnivore
+    class Pig : Animal, IHerbevore, ICarnivore, ITrickster
     {
         public override void SayHello()
         {

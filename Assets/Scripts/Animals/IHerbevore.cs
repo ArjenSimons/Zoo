@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-
-public interface IHerbevore
+﻿
+namespace Zoo
 {
-    void EatLeaves();
+    public interface IHerbevore
+    {
+        void EatLeaves();
+    }
 }

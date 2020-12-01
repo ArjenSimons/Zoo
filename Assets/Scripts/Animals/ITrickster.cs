@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public interface ITrickster
+﻿
+namespace Zoo
 {
-    void PerformTrick();
+    public interface ITrickster
+    {
+        void PerformTrick();
+    }
 }
